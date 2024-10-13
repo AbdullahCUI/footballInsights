@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Football Insights - Your in-depth guide to everything football. Explore the latest news, match reports, and team rankings.">
+    <title>Football Insights</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="#">Football Insights</a>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#news">News</a>
+        <a href="#feedback">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+            <h1>Football Insights</h1>
+            <p>The latest trends, stats, and news in the world of football.</p>
+            <a href="#about" class="btn">Explore</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Football Insights</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="lead">Football is the world's most popular sport, with a global fanbase of billions. At Football Insights, we deliver in-depth analysis, match reviews, and insights into the beautiful game.</p>
+                    <ul>
+                        <li>Latest match reports</li>
+                        <li>In-depth player analysis</li>
+                        <li>Transfer updates and rumors</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <img src="./images/imgTwo.jpg" alt="Football Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="news">
+        <div class="container">
+            <h2>Latest Football News</h2>
+            <div class="news-item">
+                <img src="./images/imgOne.jpg" alt="News 1">
+                <div>
+                    <h3>Champions League Final Results</h3>
+                    <p>The latest Champions League final delivered one of the most exciting matches of the season.</p>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="./images/imgTwo.jpg" alt="News 2">
+                <div>
+                    <h3>Transfer Rumors: Who's Next?</h3>
+                    <p>Big names like Messi and Ronaldo are rumored to be making new moves. Get the latest updates!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="feedback">
+        <h2>Feedback</h2>
+        <form class="feedback-form" action="submit_feedback.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="feedback">Your Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="5" placeholder="Enter your feedback here..." required></textarea>
+
+            <input type="submit" value="Submit Feedback">
+        </form>
+    </section>
+
+        <footer>
+            <div>
+                <p>Follow us on:</p>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div>
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <p>&copy; 2023 Football Insights</p>
+        </footer>
+    </body>
+</html>
